@@ -1,0 +1,133 @@
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    position: relative;
+}
+
+.header-text {
+    font-size: 3rem;
+    /* Dimensione del testo grande */
+    margin-bottom: 20px;
+}
+
+.logo-image {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.meme-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    /* Rimuove la sottolineatura */
+    color: white;
+    /* Colore del testo */
+    background-color: #007bff;
+    /* Colore di sfondo per il bottone primario */
+    border-radius: 5px;
+    margin: 0 10px;
+    /* Aggiunge spaziatura tra i bottoni */
+    text-align: center;
+}
+
+.custom-button.secondary {
+    background-color: #6c757d;
+    /* Colore di sfondo per il bottone secondario */
+}
+
+.custom-button:hover {
+    opacity: 0.9;
+    /* Effetto hover */
+}
+
+.custom-button.primary {
+    background-color: #ff0000;
+    /* Colore di sfondo per il bottone primario */
+}
+
+.custom-button.secondary {
+    background-color: #ffa600;
+    /* Colore di sfondo per il bottone secondario */
+}
+
+.alertt {
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-what {
+    background-color: #4fbcbf;
+}
+
+.timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    z-index: 10;
+    width: 150px;
+    text-align: center;
+}
+
+.image-res {
+    width: 35%;
+    height: auto;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.red-text {
+    color: red;
+    font-style: oblique;
+}
+
+.primary-text {
+    color: #0044ff;
+}
+
+.but-lr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cup-ml {
+    margin-left: 10px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.logout-link {
+    background-color: red;
+    color: white;
+    padding: 6px 12px;
+    border: 2px solid red;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
