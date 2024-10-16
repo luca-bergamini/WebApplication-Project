@@ -7,4 +7,8 @@ Steps to make the application work:
 - in the server terminal do the command `nodemon index.js`
 - in the client terminal do the command `npm run dev`
   
-now you can click the http... link displayed in the client terminal to have a look of the website
+now you can click the http... link displayed in the client terminal to have a look of the website.
+
+To login use the credentials written in the README file in the project folder.
+
+Enjoy😁🦾
